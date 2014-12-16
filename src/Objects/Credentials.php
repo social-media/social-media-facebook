@@ -46,7 +46,7 @@ class Credentials implements CoreCredentials
      */
     public function getAccessToken()
     {
-       return $this->accessToken;
+        return $this->accessToken;
     }
 
     /**
@@ -56,7 +56,7 @@ class Credentials implements CoreCredentials
      */
     public function getAppId()
     {
-       return $this->appId;
+        return $this->appId;
     }
 
     /**

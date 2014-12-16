@@ -19,5 +19,4 @@ use SocialMedia\Facebook\Objects\Post as FacebookPost;
  */
 class Unpublish implements FacebookService
 {
-    
 }

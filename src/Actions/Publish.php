@@ -29,6 +29,5 @@ class Publish
         FacebookService $service,
         FacebookPost $post
     ) {
-        
     }
 }
