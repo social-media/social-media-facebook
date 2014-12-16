@@ -1,6 +1,6 @@
 <?php
 
-namespace JeroenDesloovere\SocialMedia\Facebook;
+namespace SocialMedia\Facebook;
 
 /*
  * This file is part of the Social Pushing from Jeroen Desloovere.
@@ -9,7 +9,7 @@ namespace JeroenDesloovere\SocialMedia\Facebook;
  * file that was distributed with this source code.
  */
 
-use JeroenDesloovere\SocialMedia\Objects\Service as Service;
+use SocialMedia\Objects\Service as Service;
 
 /**
  * The Facebook Service
