@@ -26,6 +26,23 @@ $credentials = new FacebookCredentials();
 $api = array(); // todo
 $service = new FacebookService($api, $credentials);
 
+
+
 // (un)publish a message
 $api->getTimeline()->publish($service, $post);
 $api->getTimeline()->unpublish($service, $post);
+
+
+
+// OR better way =>
+$publish = new FacebookPublish(
+    $service,
+    $post
+);
+$unpublish = new FacebookUnpublish(
+    $service,
+    $post
+);
+
+$api->getTimeline()->runAction($publish);
+$api->getTimeline()->runAction($unpublish);
