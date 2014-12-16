@@ -1,6 +1,6 @@
 <?php
 
-namespace SocialMedia\Facebook;
+namespace SocialMedia\Facebook\Objects;
 
 /*
  * This file is part of the Social Pushing from Jeroen Desloovere.
@@ -9,14 +9,14 @@ namespace SocialMedia\Facebook;
  * file that was distributed with this source code.
  */
 
-use SocialMedia\Objects\Post as Post;
+use SocialMedia\Core\Objects\Post as CorePost;
 
 /**
- * Facebook Post item
+ * Facebook Post
  *
  * @author Jeroen Desloovere <info@jeroendesloovere.be>
  */
-class FacebookPost implements Post
+class Post implements CorePost
 {
     /**
      * Set message

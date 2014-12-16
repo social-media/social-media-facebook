@@ -1,6 +1,6 @@
 <?php
 
-namespace SocialMedia\Facebook;
+namespace SocialMedia\Facebook\Objects;
 
 /*
  * This file is part of the Social Pushing from Jeroen Desloovere.
@@ -9,14 +9,14 @@ namespace SocialMedia\Facebook;
  * file that was distributed with this source code.
  */
 
-use SocialMedia\Objects\Credentials as Credentials;
+use SocialMedia\Core\Objects\Credentials as CoreCredentials;
 
 /**
  * Facebook Credentials
  *
  * @author Jeroen Desloovere <info@jeroendesloovere.be>
  */
-class FacebookCredentials implements Credentials
+class Credentials implements CoreCredentials
 {
     /**
      * Access token
