@@ -13,7 +13,6 @@ use JeroenDesloovere\SocialMedia\Objects\Post as Post;
 
 /**
  * Facebook Post item
- * Create a Facebook post item
  *
  * @author Jeroen Desloovere <info@jeroendesloovere.be>
  */

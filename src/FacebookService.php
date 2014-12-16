@@ -12,7 +12,7 @@ namespace JeroenDesloovere\SocialMedia\Facebook;
 use JeroenDesloovere\SocialMedia\Objects\Service as Service;
 
 /**
- * In this file we store all generic functions that we will be using for Facebook.
+ * The Facebook Service
  *
  * @author Jeroen Desloovere <info@jeroendesloovere.be>
  */
