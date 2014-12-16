@@ -19,5 +19,16 @@ use SocialMedia\Facebook\Objects\Post as FacebookPost;
  */
 class Publish
 {
-    
+    /**
+     * Construct
+     *
+     * @param FacebookService $service
+     * @param FacebookPost $post
+     */
+    public function __construct(
+        FacebookService $service,
+        FacebookPost $post
+    ) {
+        
+    }
 }

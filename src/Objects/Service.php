@@ -18,5 +18,17 @@ use SocialMedia\Core\Objects\Service as CoreService;
  */
 class Service implements CoreService
 {
+    const NAME = 'Facebook';
 
+    /**
+     * Construct
+     */
+    public function __construct(
+        $api,
+        Credentials $credentials
+    ) {
+        $this->setApi($api);
+        $this->setCredentials($credentials);
+        $this->setServiceName(self::NAME);
+    }
 }
