@@ -17,7 +17,7 @@ use SocialMedia\Facebook\Objects\Post as FacebookPost;
  *
  * @author Jeroen Desloovere <info@jeroendesloovere.be>
  */
-class Unpublish implements FacebookService
+class Unpublish
 {
     /**
      * Construct
