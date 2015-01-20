@@ -12,6 +12,7 @@ require_once __DIR__ . '/../../vendor/autoload.php';
  * file that was distributed with this source code.
  */
 
+use SocialMedia\Core\SocialMedia as SocialMedia;
 use SocialMedia\Facebook\Actions\Publish as FacebookPublish;
 use SocialMedia\Facebook\Objects\Credentials as FacebookCredentials;
 use SocialMedia\Facebook\Objects\Service as FacebookService;
@@ -24,6 +25,8 @@ use SocialMedia\Facebook\Objects\Post as FacebookPost;
  */
 class PublishTest extends \PHPUnit_Framework_TestCase
 {
+    protected static $api;
+
     /**
      * Set up extra variables
      */
@@ -37,6 +40,16 @@ class PublishTest extends \PHPUnit_Framework_TestCase
     }
 
     /**
+     * Set up before class
+     *
+     * @return SocialMedia
+     */
+    public static function setUpBeforeClass()
+    {
+        self::$api = new SocialMedia();
+    }
+
+    /**
      * Tear down after class
      */
     public function tearDown()
@@ -45,10 +58,18 @@ class PublishTest extends \PHPUnit_Framework_TestCase
     }
 
     /**
+     * Tear down after class
+     */
+    public static function tearDownAfterClass()
+    {
+        self::$api = null;
+    }
+
+    /**
      * Test publish
      */
     public function testPublish()
     {
-        return true;
+        self::$api->getTimeline()->publish($this->service, $this->post);
     }
 }
