@@ -41,10 +41,32 @@ class CredentialsTest extends \PHPUnit_Framework_TestCase
     }
 
     /**
-     * @expectedException Exception
+     * Test access token
      */
-    public function testCredentials()
+    public function testAccessToken()
     {
-        throw new Exception('error');
+        $accessToken = 'testAccessToken';
+        $this->credentials->setAccessToken($accessToken);
+        $this->assertEquals($accessToken, $this->credentials->getAccessToken());
+    }
+
+    /**
+     * Test app id
+     */
+    public function testAppId()
+    {
+        $appId = 'testAppId';
+        $this->credentials->setAppId($appId);
+        $this->assertEquals($appId, $this->credentials->getAppId());
+    }
+
+    /**
+     * Test app secret
+     */
+    public function testAppSecret()
+    {
+        $appSecret = 'testAppSecret';
+        $this->credentials->setAppSecret($appSecret);
+        $this->assertEquals($appSecret, $this->credentials->getAppSecret());
     }
 }
