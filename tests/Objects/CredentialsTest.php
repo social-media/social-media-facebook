@@ -12,7 +12,7 @@ require_once __DIR__ . '/../../vendor/autoload.php';
  * file that was distributed with this source code.
  */
 
-use SocialMedia\Facebook\Objects\Credentials;
+use SocialMedia\Facebook\Objects\Credentials as FacebookCredentials;
 
 /**
  * Credentials Class which contains all credentials
@@ -29,7 +29,7 @@ class CredentialsTest extends \PHPUnit_Framework_TestCase
      */
     protected function setUp()
     {
-        $this->credentials = new Credentials();
+        $this->credentials = new FacebookCredentials();
     }
 
     /**
