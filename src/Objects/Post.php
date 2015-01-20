@@ -18,6 +18,8 @@ use SocialMedia\Core\Objects\Post as CorePost;
  */
 class Post extends CorePost
 {
+    const KEY_FOR_MESSAGE = 'message';
+
     /**
      * Get message
      *
@@ -25,7 +27,7 @@ class Post extends CorePost
      */
     public function getMessage()
     {
-        $this->get('message');
+        return $this->get(self::KEY_FOR_MESSAGE);
     }
 
     /**
@@ -35,6 +37,6 @@ class Post extends CorePost
      */
     public function setMessage($message)
     {
-        $this->set('message', $message);
+        $this->set(self::KEY_FOR_MESSAGE, $message);
     }
 }
