@@ -29,6 +29,6 @@ class Service extends CoreService
     ) {
         $this->setApi($api);
         $this->setCredentials($credentials);
-        $this->setServiceName(self::NAME);
+        $this->setName(self::NAME);
     }
 }
