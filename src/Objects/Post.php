@@ -19,7 +19,19 @@ use SocialMedia\Core\Objects\Post as CorePost;
 class Post extends CorePost
 {
     /**
+     * Get message
+     *
+     * @return string
+     */
+    public function getMessage()
+    {
+        $this->get('message');
+    }
+
+    /**
      * Set message
+     *
+     * @param string
      */
     public function setMessage($message)
     {
