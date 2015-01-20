@@ -23,9 +23,10 @@ This Social Media Facebook PHP class can (un)publish to Facebook.
 ### Example
 
 ``` php
-use SocialMedia\SocialMedia as SocialMedia;
-use SocialMedia\Objects\Post as Post;
-use SocialMedia\Objects\Service as Service;
+use SocialMedia\Core\SocialMedia as SocialMedia;
+use SocialMedia\Facebook\Objects\Post as Post;
+use SocialMedia\Facebook\Objects\Service as Service;
+use SocialMedia\Facebook\Objects\Credentials as Credentials;
 
 // define api
 $api = new SocialMedia();
