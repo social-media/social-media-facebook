@@ -16,7 +16,7 @@ use SocialMedia\Core\Objects\Credentials as CoreCredentials;
  *
  * @author Jeroen Desloovere <info@jeroendesloovere.be>
  */
-class Credentials implements CoreCredentials
+class Credentials extends CoreCredentials
 {
     /**
      * Access token

@@ -16,7 +16,7 @@ use SocialMedia\Core\Objects\Service as CoreService;
  *
  * @author Jeroen Desloovere <info@jeroendesloovere.be>
  */
-class Service implements CoreService
+class Service extends CoreService
 {
     const NAME = 'Facebook';
 

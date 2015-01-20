@@ -16,7 +16,7 @@ use SocialMedia\Core\Objects\Post as CorePost;
  *
  * @author Jeroen Desloovere <info@jeroendesloovere.be>
  */
-class Post implements CorePost
+class Post extends CorePost
 {
     /**
      * Set message
