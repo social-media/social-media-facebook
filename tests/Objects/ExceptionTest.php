@@ -22,7 +22,7 @@ use SocialMedia\Facebook\Objects\Exception as FacebookException;
 class ExceptionTest extends \PHPUnit_Framework_TestCase
 {
     /**
-     * Test service
+     * @expectedException Exception
      */
     public function testException()
     {
