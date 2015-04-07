@@ -14,9 +14,9 @@ require_once __DIR__ . '/../../vendor/autoload.php';
 
 use SocialMedia\Core\SocialMedia as SocialMedia;
 use SocialMedia\Facebook\Actions\Unpublish as FacebookUnpublish;
-use SocialMedia\Facebook\Objects\Credentials as FacebookCredentials;
-use SocialMedia\Facebook\Objects\Service as FacebookService;
-use SocialMedia\Facebook\Objects\Post as FacebookPost;
+use SocialMedia\Facebook\Types\Credentials as FacebookCredentials;
+use SocialMedia\Facebook\Types\Service as FacebookService;
+use SocialMedia\Facebook\Types\Post as FacebookPost;
 
 /**
  * The Unpublish Class unpublishes a post from Facebook.

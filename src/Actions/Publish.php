@@ -9,8 +9,8 @@ namespace SocialMedia\Facebook\Actions;
  * file that was distributed with this source code.
  */
 
-use SocialMedia\Facebook\Objects\Service as FacebookService;
-use SocialMedia\Facebook\Objects\Post as FacebookPost;
+use SocialMedia\Facebook\Types\Service as FacebookService;
+use SocialMedia\Facebook\Types\Post as FacebookPost;
 
 /**
  * Publish Post to Facebook.

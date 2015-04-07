@@ -7,15 +7,15 @@
  * file that was distributed with this source code.
  */
 
-use JeroenDesloovere\SocialMedia\Facebook\Objects\Post as FacebookPost;
-use JeroenDesloovere\SocialMedia\Facebook\Objects\Service as FacebookService;
+use JeroenDesloovere\SocialMedia\Facebook\Types\Post as FacebookPost;
+use JeroenDesloovere\SocialMedia\Facebook\Types\Service as FacebookService;
 
 // define api
 $api = new SocialMedia();
 
 use SocialMedia\SocialMedia as SocialMedia;
-use SocialMedia\Facebook\Objects\Post as FacebookPost;
-use SocialMedia\Facebook\Objects\Service as FacebookService;
+use SocialMedia\Facebook\Types\Post as FacebookPost;
+use SocialMedia\Facebook\Types\Service as FacebookService;
 
 // define api
 $api = new SocialMedia();

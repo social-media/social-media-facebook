@@ -1,6 +1,6 @@
 <?php
 
-namespace SocialMedia\Facebook\tests\Objects;
+namespace SocialMedia\Facebook\tests\Types;
 
 // required to load
 require_once __DIR__ . '/../../vendor/autoload.php';
@@ -12,8 +12,8 @@ require_once __DIR__ . '/../../vendor/autoload.php';
  * file that was distributed with this source code.
  */
 
-use SocialMedia\Facebook\Objects\Service as FacebookService;
-use SocialMedia\Facebook\Objects\Credentials as FacebookCredentials;
+use SocialMedia\Facebook\Types\Service as FacebookService;
+use SocialMedia\Facebook\Types\Credentials as FacebookCredentials;
 
 /**
  * Credentials Class which contains all credentials

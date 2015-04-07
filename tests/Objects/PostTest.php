@@ -1,6 +1,6 @@
 <?php
 
-namespace SocialMedia\Facebook\tests\Objects;
+namespace SocialMedia\Facebook\tests\Types;
 
 // required to load
 require_once __DIR__ . '/../../vendor/autoload.php';
@@ -12,7 +12,7 @@ require_once __DIR__ . '/../../vendor/autoload.php';
  * file that was distributed with this source code.
  */
 
-use SocialMedia\Facebook\Objects\Post as FacebookPost;
+use SocialMedia\Facebook\Types\Post as FacebookPost;
 
 /**
  * Post Class which contains all the post

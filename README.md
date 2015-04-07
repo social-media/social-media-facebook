@@ -24,9 +24,9 @@ This Social Media Facebook PHP class can (un)publish to Facebook.
 
 ``` php
 use SocialMedia\Core\SocialMedia as SocialMedia;
-use SocialMedia\Facebook\Objects\Post as Post;
-use SocialMedia\Facebook\Objects\Service as Service;
-use SocialMedia\Facebook\Objects\Credentials as Credentials;
+use SocialMedia\Facebook\Types\Post as Post;
+use SocialMedia\Facebook\Types\Service as Service;
+use SocialMedia\Facebook\Types\Credentials as Credentials;
 
 // define api
 $api = new SocialMedia();
