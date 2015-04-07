@@ -15,7 +15,7 @@
     ],
     "require": {
         "php": ">=5.3.3",
-        "social-media/social-media": "1.0.*"
+        "social-media/social-media": "dev-master"
     },
     "autoload": {
         "psr-4": {
