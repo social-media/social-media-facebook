@@ -10,6 +10,7 @@ namespace SocialMedia\Facebook\Types;
  */
 
 use SocialMedia\Core\Types\Service as CoreService;
+use SocialMedia\Core\Types\ServiceCredentials as CoreServiceCredentials;
 
 /**
  * The Facebook Service
@@ -25,7 +26,7 @@ class Service extends CoreService
      */
     public function __construct(
         $api,
-        Credentials $credentials
+        CoreServiceCredentials $credentials
     ) {
         $this->setApi($api);
         $this->setCredentials($credentials);

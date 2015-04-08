@@ -9,14 +9,14 @@ namespace SocialMedia\Facebook\Types;
  * file that was distributed with this source code.
  */
 
-use SocialMedia\Core\Types\Credentials as CoreCredentials;
+use SocialMedia\Core\Types\ServiceCredentials as CoreServiceCredentials;
 
 /**
  * Facebook Credentials
  *
  * @author Jeroen Desloovere <info@jeroendesloovere.be>
  */
-class Credentials extends CoreCredentials
+class ServiceCredentials extends CoreServiceCredentials
 {
     /**
      * Access token
