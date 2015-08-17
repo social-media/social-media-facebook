@@ -6,6 +6,44 @@
 
 This Social Media Facebook PHP class can (un)publish to Facebook.
 
+## Usage
+
+### Installation
+
+``` json
+{
+    "require": {
+        "social-media/social-media-facebook": "1.0.*"
+    }
+}
+```
+
+> Add the above in your `composer.json` file when using [Composer](https://getcomposer.org).
+
+### Example
+
+``` php
+use SocialMedia\Core\SocialMedia as SocialMedia;
+use SocialMedia\Facebook\Types\Post as Post;
+use SocialMedia\Facebook\Types\Service as Service;
+use SocialMedia\Facebook\Types\Credentials as Credentials;
+
+// define api
+$api = new SocialMedia();
+
+// define external post objects
+$post = new FacebookPost();
+$credentials = new FacebookCredentials();
+$api = array(); // todo
+$service = new FacebookService($api, $credentials);
+
+// (un)publish a message
+$api->getTimeline()->publish($service, $post);
+$api->getTimeline()->unpublish($service, $post);
+```
+
+> [View all examples](/examples/example.php) or check [the Social Media Facebook class](/src/).
+
 ## Documentation
 
 The class is well documented inline. If you use a decent IDE you'll see that each method is documented with PHPDoc.
