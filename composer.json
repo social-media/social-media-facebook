@@ -1,7 +1,7 @@
 {
-    "name": "social-media/social-media-facebook",
+    "name": "social-media/facebook",
     "type": "library",
-    "description": "This Social Media Facebook PHP Class can (un)publish posts to Facebook.",
+    "description": "This Social Media Facebook PHP Class can (un)publish posts/albums to Facebook.",
     "keywords": ["social media", "php", "facebook"],
     "homepage": "https://github.com/social-media/social-media-facebook",
     "license": "MIT",
@@ -15,7 +15,7 @@
     ],
     "require": {
         "php": ">=5.3.3",
-        "social-media/social-media": "dev-master"
+        "social-media/common": "dev-master"
     },
     "autoload": {
         "psr-4": {
